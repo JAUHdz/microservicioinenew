@@ -1,0 +1,15 @@
+###
+POST http://localhost:3000/api/ine/crear HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":1,
+    "nombre": "Operador",
+    "apellido_paterno": "Permisos limitados",
+    "apellido_materno": "Permisos limitados",
+    "curp": "Permisos",
+    "clave_elector": "Operador",
+    "domicilio": "Operador",
+    "fecha_nacimiento": "2025-01-10",
+    "sexo": "H"
+}
